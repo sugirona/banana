@@ -1,0 +1,169 @@
+@charset "UTF-8";
+
+
+/* Base
+   ========================================================================== */
+
+body {
+  font-family: Meiryo;
+  background-color: #fff;
+  font-size: 15px;
+  line-height: 1.5;
+  color: #333;
+  margin:0;
+  width:100%;
+    
+}
+
+
+.header{
+    background-color: #ffd700;
+    width:100%;
+}
+.header-logo{
+    padding-left: 50px;
+}
+.navbar{
+    
+    margin:0 auto;
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.navbar h1{
+    margin:0px;
+    
+}
+
+.navbar ul{
+    display: flex;
+    list-style: none;
+}
+
+.navbar li{
+    margin-left:50px;
+    margin-right:10px;
+}
+
+.navbar a{
+    color:#333;
+    text-decoration: inherit;
+}
+
+
+ 
+.btn-square {
+  display: inline-block;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  background: #CCB100;/*ボタン色*/
+  color: #FFF;
+  border-bottom: solid 4px #627295;
+  border-radius: 3px;
+}
+
+.btn-square:active { /*ボタンを押したとき*/
+  -webkit-transform: translateY(4px);
+  transform: translateY(4px);/*下に動く*/
+  border-bottom: none;/*線を消す*/
+}
+
+
+.top-wrapper {
+  background-image :url(banana_picture/banana２.png);
+  background-size:cover;
+  width:100%;
+  height:400px;
+}
+.open h1 {
+    text-align: center;
+}
+.open h2{
+    text-align: center;
+    font-size: 16px;
+}
+
+#introduce{
+    background-color:#f0f8ff;
+    width:100%;
+}
+
+#store{
+    text-align: center;
+}
+    
+
+#introduce h2{
+    text-align: center;
+    font-family: fantasy;
+    color:#ffd700;
+    font-weight: bold;
+}
+
+#introduce h1{
+    text-align: center;
+    font-weight: bold;
+}
+
+
+.navbar2 ul {
+    margin:0 auto;
+    text-align :center;
+    color:#333;
+}
+.navbar2 ul li{
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align :center;
+    display: inline-block;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.navbar2 ul li a{
+    text-decoration: none;
+    color:#333;
+}
+.navbar2 ul li a:hover{
+    color:#F5D919;
+}
+
+.footer p {
+    text-align: center;
+}
+.footer{
+    width: 100%;
+    height: 30px;
+    background-color:#ffd700;
+}
+
+.access{
+    width:100%;
+    height:480px;
+}
+.spot1{
+    text-align: center;
+    font-family: fantasy;
+    color:#ffd700;
+    font-weight: bold;
+    font-size: 
+}
+.spot2{
+    text-align: center;
+    font-weight: bold;
+}
+
+.map{
+  width: 50%;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+  float:left;
+  text-align: center;
+  
+}
+
+.footerlogo{
+    text-align: center
+}
