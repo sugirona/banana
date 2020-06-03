@@ -94,14 +94,14 @@ body {
 }
     
 
-#introduce h2{
+.introduce h2{
     text-align: center;
     font-family: fantasy;
     color:#ffd700;
     font-weight: bold;
 }
 
-#introduce h1{
+.introduce h1{
     text-align: center;
     font-weight: bold;
 }
